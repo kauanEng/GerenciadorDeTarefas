@@ -1,18 +1,19 @@
 import styled from 'styled-components';
 
 export const AreaLogin = styled.div`
-    background-color: #fff;
+    position: absolute;
+    background-color: #C7C7DF;
     padding: 30px;
     max-width: 370px;
-    margin: auto;
-    margin-top: 20px;
+    left: 915px;
+    bottom: 90px;
     text-align: center;
     border-radius: 5px;
     box-shadow: 0px 0px 10px #ccc;
     
 
     h1 {
-        font-size: 24px;
+        font-size: 21px;
     }
 
     .organize {
@@ -65,8 +66,18 @@ export const AreaLogin = styled.div`
         cursor: pointer;
         
     &:hover {
-        color: #7d2ae8;
+        color: #eae4e9;
             }
         }
     }
 `;
+
+export const ContainerBackground = styled.div`
+    background-image: url('.././../back.jpg');
+    height: 100vh;
+    width: 910px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+`; 

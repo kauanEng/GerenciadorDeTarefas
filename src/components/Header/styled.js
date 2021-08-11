@@ -42,10 +42,10 @@ export const AreaHeader = styled.div`
                 padding-top: 40px;
 
                 img {
-                    width:40px;
-                    height: 40px;
-                    border-radius: 20px;
-                    margin-right: 24px;
+                    width: 41px;
+                    height: 46px;
+                    border-radius: 30px;
+                    margin-right: 20px;
                     padding-bottom: 5px;
                     cursor: pointer;
                 }

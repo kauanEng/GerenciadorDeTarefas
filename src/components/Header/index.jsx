@@ -20,7 +20,7 @@ export default function Header(props) {
             </label>
            </div>
           <ul>
-          <li><Link to='/'><ExitToAppIcon className='alinha'/>Sair</Link></li>
+          <li><Link to='/Logout'><ExitToAppIcon className='alinha'/>Sair</Link></li>
           </ul>
         </nav>
       </div>

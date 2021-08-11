@@ -3,7 +3,7 @@ import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
 
 import Api from '../../services/Api';
 
-import { AreaLogin } from './styled';
+import { AreaLogin,ContainerBackground  } from './styled';
 
 import { BtnDefaultIcons, BtnDefault } from '../../components/styled';
 
@@ -26,6 +26,8 @@ export default ({onReceiveGoogle}) => {
   }
   
     return (
+      <>
+      <ContainerBackground>
         <BrowserRouter>
             <Switch>
                 <Route exact path='/registrar'>
@@ -86,12 +88,11 @@ export default ({onReceiveGoogle}) => {
                                 <Link to='/registrar'>Registre-se</Link>
                             </div>
                         </form>
-
                     </AreaLogin>
                 </Route>
             </Switch>
         </BrowserRouter>
-
-
+        </ContainerBackground>
+        </>
     );
 }
