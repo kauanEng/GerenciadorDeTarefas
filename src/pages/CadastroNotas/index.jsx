@@ -116,7 +116,7 @@ const CadastroNotas = (props) => {
 
           <div className='container-forms2'>
 
-          <InputLabel className='label-name2'>Tipo de reunião</InputLabel>
+      <InputLabel className='label-name2'>Tipo de reunião</InputLabel>
       <FormControl className={classes.formControl}>
         <Select 
          value={tipo} type='text' name='tipo' onChange={handleInputChange}
